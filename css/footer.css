@@ -1,0 +1,132 @@
+
+.footer{
+    padding: 48px 0;
+}
+.footer .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    max-width: 1150px;
+    overflow-x: hidden;
+}
+.footer_row {
+    display: flex;
+    align-items: center;
+}
+.footer__privacy, .footer__tel, .footer__text {
+    font-size: 12px;
+    line-height: 16px;
+    color: #272b30;
+    transition: .3s;
+}
+.footer__tel:before {
+    content: "|";
+    padding: 0 11px;
+}
+.footer__privacy:before {
+    content: "|";
+    padding: 0 11px;
+}
+.footer__socials {
+    display: flex;
+    align-items: flex-end;
+    max-height: 24px;
+}
+.footer__socials_span {
+    font-family: Hellix Bold;
+    font-size: 14px;
+    line-height: 140%;
+    color: #272b30;
+    margin-right: 16px;
+}
+
+.social-icons a {
+    color: #C0392B;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+@media (max-width: 992px){
+    p{
+        font-size: 13px;
+    }
+    .carousel-cont{
+        height: 400px;
+    }
+    .carousel-item img{
+        object-fit: cover;
+    }
+    .carousel, .carousel-cont, .carousel-inner, .carousel-item, .carousel-item img{
+        border-radius: 0px;
+    }
+    .inner-program-offered{
+        width: 95%;
+    }
+    .inner-program-offered> h6{
+        font-size: 12px;
+    }
+    .program-offered{
+        bottom: -230px;
+    }
+    .program-offers{
+        overflow-y: scroll;
+    }
+    .program-offer{
+        width: 150px;
+        border-radius: 5px;
+    }
+    .program-offer img{
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .program-offer h6{
+        font-size: 12px;
+    }
+
+    .reasons{
+        flex-wrap: wrap;
+        margin: 30px 0 !important;
+        gap: 10px;
+    }
+    .profile-info{
+        bottom: 0;
+        left: 0;
+    }
+    .profile-info-det{
+        padding: 20px !important;
+    }
+    .slide-in{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .slide-in > div{
+        margin-bottom: 10px;
+    }
+    .slide-in-in{
+        padding: 10px !important;
+    }
+    .profile-info-det ul li{
+        font-size: 12px;
+    }
+    .cont-contact .row div:first-child{
+        margin-bottom: 20px;
+    }
+    .footer{
+        padding: 32px 0;
+    }
+    .footer__text {
+        max-width: 433px;
+    }
+    
+}

@@ -1,0 +1,115 @@
+/* Global Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FDFEFE;
+    color: #4F4F4F;
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors */
+:root {
+    --primary-color: #2C3E50;
+    --accent-color: #E74C3C;
+    --background-color: #FDFEFE;
+    --secondary-color: #ECF0F1;
+    --link-color: #3498DB;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: var(--primary-color);
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
+/* Responsive Font Sizes */
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+
+
+/* Icons */
+.icon {
+    color: var(--link-color);
+}
+
+/* Responsive Icon Sizes */
+.icon-large { font-size: 40px; }
+.icon-medium { font-size: 32px; }
+.icon-small { font-size: 24px; }
+
+/* Layout - Padding */
+.container {
+    padding: 20px;
+}
+
+@media (max-width: 768px) { /* Tablet */
+    h1 { font-size: 28px; }
+    h2 { font-size: 24px; }
+    h3 { font-size: 20px; }
+    p { font-size: 15px; }
+    
+    .icon-large { font-size: 32px; }
+    .icon-medium { font-size: 24px; }
+    .container { padding: 15px; }
+}
+
+@media (max-width: 480px) { /* Mobile */
+    h1 { font-size: 24px; }
+    h2 { font-size: 20px; }
+    h3 { font-size: 18px; }
+    p { font-size: 14px; }
+    
+    .icon-large { font-size: 24px; }
+    .icon-medium { font-size: 20px; }
+    .container { padding: 10px; }
+}
+
+/* Section Styles */
+.section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+}
+
+.section-heading {
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+/* Consistent button style for all CTA buttons */
+.cta-button {
+    background-color: var(--accent-color);
+    color: #FFF;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
