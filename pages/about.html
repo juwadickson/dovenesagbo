@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dovene Sagbo - Learning french made easy</title>
+    <title>Dovene Sagbo - About Me</title>
 
     <link rel="icon" href="../icons/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/courses.css">
+    <link rel="stylesheet" href="../css/about.css">
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -133,7 +133,7 @@
                             </ul>
                           </li>
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle pages" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pages</a>
@@ -167,200 +167,91 @@
         </div>
     </header>
 
-    <div class="container courses-1">
-      <h1>Explore Courses</h1>
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Meet Monsieur Dovene SAGBO</h1>
+        <p>Your Guide to the French Language and Culture</p>
+        <button onclick="scrollToBio()">Learn More</button>
     </div>
-    
-    <div class="container courses-list">
-      <div class="row" style="margin-bottom: 20px;">
-        <div class="courses-card" style="background-color: #0dcaf01a;">
-          <div class="course-cont">
-            <div class="course-logo">
-              <img src="../images/img1.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
-            </div>
-            <div class="course-content">
-              <h5 style="margin-bottom: 20px;">Basic Grammer and Vocabulary</h5>
-              <h6 style="color: #ef5c32;">Course content</h6>
-              <ul style="font-size: 12px;">
-                <li>Sentence structure</li>
-                <li>Parts of speech (nouns, verbs, adjectives, etc.)</li>
-                <li>Tenses (present, past, future)</li>
-                <li>Vocabulary building exercises</li>
-                <li>Pronunciation practice</li>
-              </ul>
-            </div>
-          </div>
-          <a style="font-size: 12px; background-color: black; color: white;border: none;">Pricing and scheduling options: On demand. </a>
-          <a href="mailto:">ENROLL NOW!</a>
-        </div>
-        <div class="courses-card" style="background-color:rgba(252, 228, 236, 0.51);">
-          <div class="course-cont">
-            <div class="course-logo">
-              <img src="../images/img2.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
-            </div>
-            <div class="course-content">
-              <h5 style="margin-bottom: 20px;">Everyday <br>Conversations</h5>
-              <h6 style="color: #ef5c32;">Course content</h6>
-              <ul style="font-size: 12px;">
-                <li>Sentence structure</li>
-                <li>Parts of speech (nouns, verbs, adjectives, etc.)</li>
-                <li>Tenses (present, past, future)</li>
-                <li>Vocabulary building exercises</li>
-                <li>Pronunciation practice</li>
-              </ul>
-            </div>
-          </div>
-          <a style="font-size: 12px; background-color: black; color: white;border: none;">Pricing and scheduling options: On demand. </a>
-          <a href="mailto:">ENROLL NOW!</a>
-        </div>
-        <div class="courses-card" style="background-color: rgba(205, 222, 255, 0.508);">
-          <div class="course-cont">
-            <div class="course-logo">
-              <img src="../images/img3.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
-            </div>
-            <div class="course-content">
-              <h5 style="margin-bottom: 20px;">Cultural <br>Topics</h5>
-              <h6 style="color: #ef5c32;">Course content</h6>
-              <ul style="font-size: 12px;">
-                <li>Traditions</li>
-                <li>Customs</li>
-                <li>Holidays and celebrations</li>
-                <li>Famous people and places</li>
-                <li>Social etiquette</li>
-                <li>Current events</li>
-              </ul>
-            </div>
-          </div>
-          <a style="font-size: 12px; background-color: black; color: white;border: none;">Pricing and scheduling options: On demand. </a>
-          <a href="mailto:">ENROLL NOW!</a>
-        </div>
-      </div>
-      <div class="row" style="margin-bottom: 20px;">
-        <div class="courses-card" style="background-color: #caf00d1a;">
-          <div class="course-cont">
-            <div class="course-logo">
-              <img src="../images/img4.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
-            </div>
-            <div class="course-content">
-              <h5 style="margin-bottom: 20px;">Business and Professional Language</h5>
-              <h6 style="color: #ef5c32;">Course content</h6>
-              <ul style="font-size: 12px;">
-                <li>Workplace communication</li>
-                <li>Meetings and presentations</li>
-                <li>Email writing</li>
-                <li>Telephone conversations</li>
-                <li>Negotiating</li>
-                <li>Technical terminology</li>
-              </ul>
-            </div>
-          </div>
-          <a style="font-size: 12px; background-color: black; color: white;border: none;">Pricing and scheduling options: On demand. </a>
-          <a href="mailto:">ENROLL NOW!</a>
-        </div>
-        <div class="courses-card" style="background-color:rgba(228, 248, 252, 0.51);">
-          <div class="course-cont">
-            <div class="course-logo">
-              <img src="../images/img5.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
-            </div>
-            <div class="course-content">
-              <h5 style="margin-bottom: 20px;">Specific <br>Interest</h5>
-              <h6 style="color: #ef5c32;">Course content</h6>
-              <ul style="font-size: 12px;">
-                <li>Hobbies (cooking, sports, music, etc.)</li>
-                <li>Travel destinations</li>
-                <li>Current affairs</li>
-                <li>Science</li>
-                <li>Technology</li>
-                <li>Art and literature</li>
-              </ul>
-            </div>
-          </div>
-          <a style="font-size: 12px; background-color: black; color: white;border: none;">Pricing and scheduling options: On demand. </a>
-          <a href="mailto:">ENROLL NOW!</a>
-        </div>
-        <div class="courses-card" style="background-color: rgba(255, 205, 205, 0.508);">
-          <div class="course-cont">
-            <div class="course-logo">
-              <img src="../images/igcse.webp" alt="" width="70px" height="70px" style="border-radius: 50%;">
-            </div>
-            <div class="course-content">
-              <h5 style="margin-bottom: 20px;">Exam <br>Preparation</h5>
-              <h6 style="color: #ef5c32;">Course content</h6>
-              <ul style="font-size: 12px;">
-                <li>TCF</li>
-                <li>DELF</li>
-                <li>IGCSE</li>
-                <li>IBDP</li>
-                <li>TEF</li>
-                <li>DALF</li>
-              </ul>
-            </div>
-          </div>
-          <a style="font-size: 12px; background-color: black; color: white;border: none;">Pricing and scheduling options: On demand. </a>
-          <a href="mailto:">ENROLL NOW!</a>
-        </div>
-      </div>
-    </div>
-    
-    
-    <div class="container duration testimonials">
-      <div class="testimonial-head">
-        <h6>DURATIONS</h6>
-        <span>Sessions range for 1h to 2h per class twice or trice weekly at the learner’s availability.  </span>
-      </div>
-      
-      <div class="learning-levels">
-        <div class="level-item">
-            <img src="../images/flag_2954934.png" alt="Beginner Icon" class="level-icon">
-            <h3>Beginner Level</h3>
-            <p>3 Months</p>
-        </div>
-    
-        <div class="level-item">
-            <img src="../images/coaching_4557166.png" alt="Lower Intermediate Icon" class="level-icon">
-            <h3>Lower Intermediate</h3>
-            <p>6 Months</p>
-        </div>
-    
-        <div class="level-item">
-            <img src="../images/top_1462426.png" alt="Upper Intermediate Icon" class="level-icon">
-            <h3>Upper Intermediate</h3>
-            <p>9 Months</p>
-        </div>
-    
-        <div class="level-item">
-            <img src="../images/autodidact_17621317.png" alt="Advanced Icon" class="level-icon">
-            <h3>Advanced Level</h3>
-            <p>12 Months</p>
-        </div>
-    </div>
-    </div>
-    
-    
-    <div class="container testimonials">
-      <div class="testimonial-head">
-        <h6>TESTIMONIALS</h6>
-        <h2>Our Successful Students</h2>
-      </div>
-    
-      <div class="testimonial-container">
-        <div class="testimonial-slider">
-            <div class="testimonial-item">
-                <div class="testimonial-header">
-                    <img src="../images/testimonial1.jpg" alt="Person 1" class="testimonial-img">
-                    <span class="testimonial-name">Uwa</span>
-                </div>
-                <p class="testimonial-text">Bonjour tout le monde!  
 
-                  My name is Uwa, and I had the privilege of studying French with Mr. Sagbo for two years during my International Baccalaureate Diploma Program. When I began, my French was quite basic, but thanks to his patience and incredible teaching style, I made significant progress. His lessons were engaging and tailored to my needs, making challenging topics like grammar and verb conjugation easier to understand. Mr. Sagbo encouraged me to speak French outside of class, which boosted my confidence in real-life situations. I’m thrilled to share that his guidance helped me achieve a score of seven on my IB French B exams, the highest possible grade. I'm truly grateful for his support and highly recommend him to anyone wanting to learn or improve their French.  
-                  
-                  Au revoir!</p>
+    <div class="container">
+
+        <!-- Introduction Section with Image -->
+        <section id="bio" class="intro">
+            <img src="../images/four.jpg" alt="Monsieur Dovene SAGBO">
+            <div class="intro-content">
+                <h2>Introduction</h2>
+                <div class="divider"></div>
+                <p>Monsieur Dovene SAGBO is a passionate teacher with over 10 years of experience teaching French to English speakers. Previously, he spent 5 years teaching English to French speakers, making him a highly skilled bilingual educator. A graduate of the University of Lome, he uses innovative methods to make learning French both enjoyable and effective. His mission is to help every student achieve their language goals and develop a deep appreciation of French culture, giving them an advantage in today's competitive job market.</p>
             </div>
-            <!-- Add more testimonials as needed -->
-            <script src="../js/testimonial.js"></script>
+        </section>
+
+        <!-- Teaching Philosophy Section -->
+        <section class="philosophy">
+        <h2>Teaching Philosophy</h2>
+        <div class="divider"></div>
+        <p>"I believe in creating a supportive and engaging environment where every student feels empowered to express themselves, take risks, and embrace the beauty of the French language and culture. My teaching approach is student-centered, encouraging hands-on activities and interactive sessions that make learning both fun and meaningful."</p>
+        </section>
+
+        <!-- Classes Offered Section -->
+        <section class="classes">
+        <h2>French Classes Offered</h2>
+        <div class="divider"></div>
+        <ul>
+            <li>Beginner French</li>
+            <li>Intermediate French</li>
+            <li>Advanced French</li>
+            <li>Conversational French</li>
+        </ul>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section class="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="divider"></div>
+        <div class="gallery-grid">
+            <img src="../images/img4.png" alt="Class Activity">
+            <img src="../images/teac.jpg" alt="Classroom Setting">
+            <img src="../images/three.jpg" alt="Teaching Tools">
+            <img src="../images/five.jpg" alt="Interactive Session">
+            <img src="../images/four.jpg" alt="Student Engagement">
+            <img src="../images/Screenshot 2024-11-04 231744.png" alt="Student Engagement">
+            <img src="../images/Screenshot 2024-11-04 231812.png" alt="Cultural Event">
         </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="divider"></div>
+        <div class="testimonial">
+            <p>"Monsieur Dovene's classes are always engaging and interactive. He makes learning French so enjoyable!" - Student A</p>
+        </div>
+        <div class="testimonial">
+            <p>"I've never felt more confident in my French skills. Monsieur Dovene is an exceptional teacher!" - Student B</p>
+        </div>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section class="contact">
+        <h2>Contact Information</h2>
+        <div class="divider"></div>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:dovene.sagbo@school.com">sydoveacademy@gmail.com</a></p>
+            <p>LinkedIn: <a href="http://linkedin.com/in/dovene-sagbo-725a088a">http://linkedin.com/in/dovene-sagbo-725a088a</a></p>
+            <p>Phone: +2347068552782</p>
+            <p>Location: Lagos, Nigeria</p>
+        </div>
+        </section>
+
     </div>
-    </div>
+
+  <script>
+    // Scroll to bio section on button click
+    function scrollToBio() {
+      document.getElementById("bio").scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
 
     <footer class="footer">
         <div class="wrapper">
